@@ -38,7 +38,7 @@ export function BirthdayClock() {
             {/* Top Washi Tape Accent (Slim & Sleek) */}
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#FF7B9B] to-[#F7436B] text-white text-[9px] sm:text-[10px] font-bold px-3 py-0.5 rounded-full shadow-sm flex items-center gap-1.5 z-20 border border-white/60 tracking-wider whitespace-nowrap">
               <span>⏳</span>
-              <span>BIRTHDAY COUNTDOWN & MILESTONE</span>
+              <span>HITUNG MUNDUR KE HARI SPESIALMU</span>
               <span>✨</span>
             </div>
 
@@ -55,7 +55,7 @@ export function BirthdayClock() {
               <div className="space-y-5 pt-2">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#FFD8C8] text-[#C91F5A] rounded-full font-bold text-xs sm:text-sm tracking-wider uppercase shadow-sm">
                   <span>🎉</span>
-                  <span>HARI INI HARIMU!</span>
+                  <span>Hari ini giliran kamu, nek! 🎉</span>
                   <span>🎂</span>
                 </div>
 

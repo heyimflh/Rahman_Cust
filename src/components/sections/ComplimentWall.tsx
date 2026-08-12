@@ -117,7 +117,7 @@ export function ComplimentWall() {
         >
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FFE4EC] to-[#FFD8E4] border border-[#FFB8C9] text-[#C91F5A] px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest shadow-2xs">
             <Heart size={14} className="text-[#C91F5A] fill-[#C91F5A]" />
-            <span>Candid Appreciation Wall</span>
+            <span>Dinding Pujian Jujur</span>
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-[#C91F5A] tracking-tight drop-shadow-2xs">
@@ -145,7 +145,7 @@ export function ComplimentWall() {
             { id: "all", label: "Semua Pujian", icon: Heart },
             { id: "character", label: "Karakter & Vibe", icon: Sparkles },
             { id: "habit", label: "Konyol & Gemes", icon: Smile },
-            { id: "growth", label: "Perjalanan Hebat", icon: Award },
+            { id: "growth", label: "Proses & Perjuangan", icon: Award },
           ].map(tab => {
             const Icon = tab.icon;
             const isActive = activeCategory === tab.id;
@@ -215,7 +215,7 @@ export function ComplimentWall() {
                       {/* Interactive Tap Footer & Permanent Stamp */}
                       <div className="flex items-center justify-between pt-2 border-t border-black/5">
                         <span className="text-[11px] font-medium text-[#8B717A] group-hover:text-[#C91F5A] transition-colors">
-                          {isAgreed ? "Klik untuk batal" : "Klik jika kamu setuju ✨"}
+                          {isAgreed ? "Eh, klik lagi buat batal" : "Klik kalau kamu setuju juga ✨"}
                         </span>
 
                         {isAgreed && (
@@ -245,7 +245,7 @@ export function ComplimentWall() {
             <>
               <Button onClick={handleRevealMore} variant="primary" size="lg" className="shadow-md">
                 <Plus size={18} className="mr-1.5" />
-                <span>Lempar Satu Pujian Lagi ✨</span>
+                <span>Kasih Aku Satu Pujian Lagi ✨</span>
               </Button>
 
               <Button onClick={handleRevealAll} variant="secondary" size="lg">

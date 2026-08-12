@@ -81,7 +81,7 @@ export function Playground() {
   };
 
   const handleResetProgress = () => {
-    if (window.confirm("Ingin mereset petualangan game ulang tahun dan main lagi dari awal?")) {
+    if (window.confirm("Yakin mau reset semua progress game dan mulai lagi dari nol?")) {
       setPlayedGames("[]");
       setShowVaultReward(false);
     }
@@ -146,14 +146,14 @@ export function Playground() {
     if (playedCount === 0) {
       return {
         title: "ARCADE ROOKIE 🎮",
-        speech: "Halo Azkia! Pilihlah kartu game pertamamu untuk memulai petualangan!",
+        speech: "Halo Azkia! Pilih satu kartu buat mulai petualangan mini game-nya!",
         state: "idle" as const,
         badgeBg: "bg-pink-100 text-pink-700 border-pink-300",
       };
     } else if (playedCount <= 2) {
       return {
         title: "GAME EXPLORER ⚡",
-        speech: "Keren banget! Teruskan mainkan kartu game lainnya buat kumpulin trofi!",
+        speech: "Keren! Lanjut mainin kartu lainnya biar trofinya makin banyak!",
         state: "excited" as const,
         badgeBg: "bg-purple-100 text-purple-700 border-purple-300",
       };
@@ -194,7 +194,7 @@ export function Playground() {
         >
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#FFE4EC] to-[#FFD8E4] border border-[#FFB8C9] text-[#C91F5A] px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest shadow-xs">
             <Gamepad2 size={15} className="text-[#C91F5A]" />
-            <span>Birthday Arcade Corner</span>
+            <span>Sudut Arcade Ulang Tahun</span>
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-[#C91F5A] tracking-tight drop-shadow-xs">
@@ -277,13 +277,13 @@ export function Playground() {
                   className="flex-1 py-2.5 px-3 bg-gradient-to-r from-[#FF6688] to-[#C91F5A] hover:from-[#C91F5A] hover:to-[#A81748] text-white font-bold text-xs rounded-xl shadow-md transition-all active:scale-95 flex items-center justify-center gap-1.5 disabled:opacity-50"
                 >
                   <Shuffle size={14} className={isSpinningRandom ? "animate-spin" : ""} />
-                  <span>{isSpinningRandom ? "Mengacak..." : "Acak Game 🕹️"}</span>
+                  <span>{isSpinningRandom ? "Lagi diacak..." : "Random Aja 🕹️"}</span>
                 </button>
 
                 {playedCount > 0 && (
                   <button
                     onClick={handleResetProgress}
-                    title="Reset Ulang Progress"
+                    title="Main Ulang dari Awal"
                     className="p-2.5 bg-white border border-[#FFC5D0] hover:bg-[#FFE4EC] text-[#8B717A] hover:text-[#C91F5A] rounded-xl transition-colors shadow-2xs"
                   >
                     <RotateCcw size={15} />
@@ -640,7 +640,7 @@ export function Playground() {
                 </h3>
                 <p className="text-xs sm:text-sm text-[#8B717A]">
                   {playedCount === totalCount
-                    ? "Selamat Azkia! Kamu berhasil menamatkan kelima mini game ultah dan berhak membuka piala emasmmu!"
+                    ? "Selamat, Azkia! Kelima mini game udah kamu taklukin \u2014 waktunya buka piala emas kamu!"
                     : `Selesaikan ${totalCount - playedCount} game lagi untuk membuka piala dan hadiah rahasia!`}
                 </p>
               </div>
@@ -698,7 +698,7 @@ export function Playground() {
           <div className="bg-gradient-to-br from-[#FFF5F8] to-[#FFE4EC] p-5 rounded-2xl border-2 border-[#FFB8C9] space-y-2 text-left shadow-inner">
             <p className="text-sm font-semibold text-[#4A3038] flex items-center gap-2">
               <Star size={16} className="text-amber-500 fill-amber-500" />
-              <span>Tiket Bebas Minta Hadiah Kado / Traktiran Spesial!</span>
+              <span>Tiket Bebas Minta Kado atau Traktiran!</span>
             </p>
             <p className="text-xs text-[#8B717A] leading-relaxed">
               Karena Azkia pantang menyerah dan berhasil menyelesaikan semua tantangan di Birthday Playground, kamu berhak klaim kado atau hadiah kuliner bebas pilihan kamu ke Rahman! 🥳💖

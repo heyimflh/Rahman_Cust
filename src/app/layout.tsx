@@ -28,11 +28,11 @@ export const viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pestakecil-azkia.vercel.app"),
-  title: "Pesta Kecil untuk Azkia | HBD!",
-  description: "Selamat ulang tahun, Azkia! Ini sedikit kejutan buat kamu.",
+  title: "Pesta Kecil untuk Azkia \ud83c\udf89 Buka Kadonya, Nek!",
+  description: "Azkia, ini bukan ucapan ultah biasa. Ini pesta kecil yang sengaja dibikinin buat kamu \u2014 scroll aja pelan-pelan.",
   openGraph: {
-    title: "Pesta Kecil untuk Azkia",
-    description: "Ada kado digital di dalam, khusus buat yang ulang tahun hari ini.",
+    title: "Pesta Kecil untuk Azkia \ud83c\udf82",
+    description: "Ada kado digital di dalam sini, khusus buat yang lagi ulang tahun hari ini. Jangan diintip orang lain ya.",
     url: "https://pestakecil-azkia.vercel.app",
     siteName: "Pesta Kecil",
     images: [

@@ -15,7 +15,7 @@ export const compliments: Compliment[] = [
   // Character (6)
   {
     id: "c1",
-    text: "cara kamu bikin suasana di sekitar terasa jauh lebih hidup.",
+    text: "cara kamu bikin suasana di sekitar jadi lebih hidup, padahal nggak ngapa-ngapain.",
     type: "character",
     categoryLabel: "Energi Manis",
     emoji: "✨",
@@ -27,7 +27,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "c2",
-    text: "kamu punya energi positif hangat yang gampang banget diingat.",
+    text: "energi positif kamu tuh hangat banget, susah dilupain.",
     type: "character",
     categoryLabel: "Vibe Positif",
     emoji: "☀️",
@@ -39,7 +39,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "c3",
-    text: "kemampuan kamu buat bikin orang lain selalu ngerasa nyaman.",
+    text: "kamu selalu berhasil bikin orang di sekitar ngerasa nyaman, entah gimana caranya.",
     type: "character",
     categoryLabel: "Kenyamanan",
     emoji: "🌸",
@@ -51,7 +51,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "c4",
-    text: "kamu selalu punya cara buat ngadepin hari yang panjang dengan senyuman.",
+    text: "kamu selalu punya cara buat tetep senyum walau harinya panjang banget.",
     type: "character",
     categoryLabel: "Pantang Menyerah",
     emoji: "💪",
@@ -63,7 +63,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "c5",
-    text: "ada banyak hal kecil tentang kamu yang bikin orang seneng kamu hadir.",
+    text: "banyak hal kecil dari kamu yang bikin orang seneng pas kamu ada di situ.",
     type: "character",
     categoryLabel: "Bintang Kecil",
     emoji: "⭐️",
@@ -75,7 +75,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "c6",
-    text: "kamu versi yang sekarang ini beneran luar biasa & layak dirayakan!",
+    text: "kamu yang sekarang ini beneran keren, dan pantes banget dirayain!",
     type: "character",
     categoryLabel: "Spesial",
     emoji: "👑",
@@ -101,7 +101,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "h2",
-    text: "gaya santai khas kamu yang selalu kelihatan keren tanpa dibuat-buat.",
+    text: "gaya santai kamu tuh keren aja gitu, padahal nggak berusaha keras.",
     type: "habit",
     categoryLabel: "Gaya Keren",
     emoji: "😎",
@@ -151,7 +151,7 @@ export const compliments: Compliment[] = [
   // Growth (4)
   {
     id: "g1",
-    text: "kamu udah berhasil berkembang jauh banget sampai di umur baru ini.",
+    text: "kamu udah jauh banget berkembangnya buat sampai di umur baru ini.",
     type: "growth",
     categoryLabel: "Pencapaian",
     emoji: "🌱",
@@ -175,7 +175,7 @@ export const compliments: Compliment[] = [
   },
   {
     id: "g3",
-    text: "semua proses panjang & perjuangan yang udah kamu lewatin hebat banget.",
+    text: "proses panjang dan perjuangan yang udah kamu lewatin itu hebat banget.",
     type: "growth",
     categoryLabel: "Proses Hebat",
     emoji: "🏆",

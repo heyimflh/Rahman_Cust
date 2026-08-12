@@ -13,20 +13,20 @@ export function BirthdaySpotlight() {
     {
       num: "01",
       icon: "🌸",
-      title: "LAHIRNYA SATU MANUSIA YANG...",
-      text: "punya cara sendiri buat bikin suasana jadi lebih hidup."
+      title: "HARI INI, 19 TAHUN LALU...",
+      text: "lahir satu manusia yang selalu tahu cara bikin suasana jadi lebih hidup."
     },
     {
       num: "02",
       icon: "💕",
-      title: "BERHASIL MELEWATI...",
-      text: "semua hari yang panjang meski kadang rasanya nggak gampang."
+      title: "DAN SEKARANG DIA...",
+      text: "berhasil ngelewatin banyak hari yang nggak selalu gampang \u2014 dan tetep jadi Azkia yang sama serunya."
     },
     {
       num: "03",
       icon: "👑",
-      title: "PANTAS DAPAT...",
-      text: "umur baru yang lebih ramah dan lebih banyak alasan buat senyum."
+      title: "JADI, DIA PANTAS DAPAT...",
+      text: "umur baru yang lebih ramah, dan lebih banyak alasan buat ketawa lepas."
     }
   ];
 
@@ -65,7 +65,7 @@ export function BirthdaySpotlight() {
                 {/* Corner Sticker Badge on Top Right */}
                 <div className="absolute -top-3.5 -right-2 sm:-right-3 z-30 bg-gradient-to-r from-[#FF7B9B] to-[#F7436B] text-white text-[10px] sm:text-[11px] font-bold px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full shadow-md flex items-center gap-1 border border-white/80 rotate-[3deg]">
                   <span>👑</span>
-                  <span>Queen Of The Day</span>
+                  <span>Ratu Sehari Ini 👑</span>
                 </div>
 
                 {/* Photo Image */}

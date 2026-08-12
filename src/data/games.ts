@@ -37,7 +37,7 @@ export const playgroundGames: GameInfo[] = [
   {
     id: "game-pop-balloons",
     name: "Balon Harapan",
-    description: "Pecahkan balon pastel untuk menemukan pesan-pesan manis tersembunyi.",
+    description: "Pecahin balon-balon pastel, ada pesan manis yang nunggu di dalamnya.",
     duration: "Santai",
     component: "PopBalloons",
     category: "casual",
@@ -54,7 +54,7 @@ export const playgroundGames: GameInfo[] = [
   {
     id: "game-quiz",
     name: "Kuis Memori & Chemistry",
-    description: "Uji seberapa ingat Azkia sama momen-momen manis kita berdua.",
+    description: "Coba tebak, seberapa inget Azkia sama momen-momen manis kita berdua?",
     duration: "Santai",
     component: "BirthdayQuiz",
     category: "quiz",
@@ -71,7 +71,7 @@ export const playgroundGames: GameInfo[] = [
   {
     id: "game-quick-cake",
     name: "Dekor Kue Kilat",
-    description: "Rakit dan hias kue ulang tahun impian versi kamu sendiri dalam 30 detik.",
+    description: "Rakit dan hias kue ulang tahun impianmu sendiri \u2014 cuma 30 detik!",
     duration: "30 Detik",
     component: "QuickCake",
     category: "creative",
@@ -88,7 +88,7 @@ export const playgroundGames: GameInfo[] = [
   {
     id: "game-memory",
     name: "Memory Match",
-    description: "Cari dan temukan pasangan foto kenangan manis yang cocok.",
+    description: "Cari pasangan foto kenangan yang cocok, siapa cepat dia menang.",
     duration: "Santai",
     component: "MemoryMatch",
     category: "memory",

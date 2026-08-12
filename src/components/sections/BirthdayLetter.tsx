@@ -109,7 +109,7 @@ export function BirthdayLetter() {
 
               <div className="inline-flex items-center gap-2 bg-[#C91F5A] text-white px-6 py-3 rounded-2xl font-extrabold text-sm shadow-md group-hover:bg-[#A81748] transition-colors">
                 <Sparkles size={16} />
-                <span>Buka Segel Surat Sekarang ✨</span>
+                <span>Buka Suratnya Sekarang ✨</span>
               </div>
             </motion.div>
           ) : (
@@ -219,7 +219,7 @@ export function BirthdayLetter() {
                     className="w-full py-3 bg-pink-50 hover:bg-pink-100 border border-pink-200 text-[#C91F5A] rounded-2xl font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-xs"
                   >
                     <Bookmark size={16} className="text-[#C91F5A]" />
-                    <span>💌 Buka P.S. (Catatan Rahasia Tambahan)</span>
+                    <span>💌 Eh, masih ada satu catatan lagi</span>
                     <ChevronDown size={16} />
                   </button>
                 ) : (
@@ -255,7 +255,7 @@ export function BirthdayLetter() {
                   className="w-full py-3.5 px-6 bg-gradient-to-r from-[#FF5E83] to-[#C91F5A] hover:from-[#C91F5A] hover:to-[#A81748] text-white rounded-2xl text-xs sm:text-sm font-extrabold flex items-center justify-center gap-2 shadow-lg transition-all"
                 >
                   <MessageCircle size={17} />
-                  <span>Kirim Balasan Manis via WhatsApp 💬</span>
+                  <span>Bales di WhatsApp, Yuk 💬</span>
                 </a>
               </div>
 

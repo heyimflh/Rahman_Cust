@@ -239,17 +239,17 @@ export function BlowCandle() {
         >
           <div className="inline-flex items-center gap-2 bg-[#FF6688]/15 border border-[#FF6688]/30 text-[#FF809B] px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest shadow-sm">
             <Wand2 size={14} className="text-[#FF809B]" />
-            <span>Sacred Birthday Ritual</span>
+            <span>Ritual Wajib Sebelum Makan Kue 🕯️</span>
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-[#FFD8C8] tracking-tight drop-shadow-md">
-            {allBlown ? "make a wish ✨" : "ritual tiup lilin"}
+            {allBlown ? "make a wish ✨" : "saatnya tiup lilin"}
           </h2>
 
           <p className="text-white/75 text-base md:text-lg max-w-lg mx-auto font-body leading-relaxed">
             {allBlown
-              ? "Semua lilin sudah padam! Sekarang sampaikan harapan terindah Azkia ke semesta."
-              : "Tahan tombol tiup di bawah atau sentuh api lilin untuk memadamkannya pelan-pelan."}
+              ? "Semua lilin udah padam! Sekarang, ucapin aja harapan terbaik kamu ke semesta \u2014 nggak perlu keras-keras, cukup di hati."
+              : "Tahan tombol tiup di bawah, atau sentuh langsung api lilinnya buat matiin pelan-pelan."}
           </p>
 
           {/* Custom / Default Cake Indicator Badge */}
@@ -382,7 +382,7 @@ export function BlowCandle() {
 
                 <button
                   onClick={handleResetRitual}
-                  title="Tiup Lilin Lagi"
+                  title="Ulangi Tiup Lilin"
                   className="p-2 text-white/60 hover:text-white bg-white/5 hover:bg-white/10 rounded-xl border border-white/10 transition-colors"
                 >
                   <RotateCcw size={16} />
@@ -390,7 +390,7 @@ export function BlowCandle() {
               </div>
 
               <blockquote className="font-handwriting text-2xl text-[#FFD8C8] leading-relaxed italic text-center">
-                "Harapannya jangan dibocorin ya... Semoga semua yang baik tahu jalan pulang ke Azkia." 💖
+                "Harapannya rahasia ya, jangan dibocorin... tapi semoga semua yang baik-baik emang lagi otw ke kamu." 💖
               </blockquote>
 
               {isWishSaved && wish ? (
@@ -398,7 +398,7 @@ export function BlowCandle() {
                   <div className="p-4 bg-white/10 rounded-2xl border border-amber-300/30 space-y-2">
                     <div className="flex items-center gap-2 text-xs font-extrabold text-amber-300 uppercase tracking-wider">
                       <Lock size={14} />
-                      <span>Harapan Terkunci ✨</span>
+                      <span>Harapan Udah Disimpen ✨</span>
                     </div>
                     <p className="text-sm font-medium text-white/90 leading-relaxed italic">
                       "{wish}"

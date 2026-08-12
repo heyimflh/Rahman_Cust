@@ -65,7 +65,7 @@ export const photos: PhotoMemory[] = [
     id: "photo-fun-2",
     src: "/images/image-7.webp",
     alt: "Foto Azkia waktu kecil dengan bingkai dekoratif berbentuk siput dan jamur.",
-    caption: "bukti otentik sejak kecil.",
+    caption: "bukti sah sejak kecil emang udah gemes.",
     width: 720,
     height: 480,
     role: "fun-card",

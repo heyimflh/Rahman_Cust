@@ -88,7 +88,7 @@ export function Scrapbook() {
             <PuffCloud state="excited" className="w-20 h-16 md:w-24 md:h-18 hover:scale-110 transition-transform" />
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 whitespace-nowrap bg-white text-[#C91F5A] border border-[#FFC5D0] px-3.5 py-1 rounded-full text-xs md:text-sm font-semibold shadow-md flex items-center gap-1.5 animate-bounce">
               <Camera size={14} className="text-[#C91F5A]" />
-              <span>Klik foto mana saja untuk lihat cerita! ✨</span>
+              <span>Klik fotonya, ada cerita di baliknya ✨</span>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export function Scrapbook() {
         >
           <div className="inline-flex items-center gap-2 bg-[#FFE4EC] text-[#C91F5A] px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest border border-[#FFB6C1]">
             <Sparkles size={14} />
-            <span>Memory Scrapbook Album</span>
+            <span>Album Kenangan</span>
           </div>
 
           <h2 className="font-display text-4xl md:text-6xl text-[#C91F5A] tracking-tight relative inline-block">

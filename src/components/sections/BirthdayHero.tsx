@@ -85,7 +85,7 @@ export function BirthdayHero({ onStart }: BirthdayHeroProps) {
               {/* Cute Special Birthday Edition Badge */}
               <div className="inline-flex items-center gap-2 bg-[#FFE4EC] text-[#D03B5C] border border-[#F7C6D5] px-3.5 py-1 rounded-full text-xs font-semibold tracking-wider shadow-sm mb-3">
                 <span className="animate-spin text-xs">✨</span>
-                <span>SPECIAL BIRTHDAY EDITION</span>
+                <span>EDISI SPESIAL ULANG TAHUN 🎂</span>
                 <span className="animate-pulse text-xs">👑</span>
               </div>
 
@@ -128,7 +128,7 @@ export function BirthdayHero({ onStart }: BirthdayHeroProps) {
                     size="lg" 
                     className="relative rounded-full bg-gradient-to-r from-[#FF5E83] via-[#F7436B] to-[#E02E56] hover:from-[#F7436B] hover:to-[#C91F5A] text-white font-semibold text-base sm:text-lg px-8 py-3.5 shadow-[0_10px_25px_rgba(255,94,131,0.4)] hover:shadow-[0_14px_30px_rgba(255,94,131,0.55)] transition-all duration-300 flex items-center gap-2"
                   >
-                    <span>mulai pestanya</span>
+                    <span>yuk mulai pestanya</span>
                     <span className="text-xl not-italic">🎁</span>
                   </Button>
                 </motion.div>
@@ -209,7 +209,7 @@ export function BirthdayHero({ onStart }: BirthdayHeroProps) {
               {/* Corner Ribbon Sticker Badge on Photo Frame (Clean positioning without overlap) */}
               <div className="absolute -top-4 -left-2 sm:-left-4 z-30 bg-gradient-to-r from-[#FF7B9B] to-[#F7436B] text-white text-[11px] sm:text-xs font-bold px-3 py-0.5 sm:px-3.5 sm:py-1 rounded-full shadow-md flex items-center gap-1.5 rotate-[-6deg] border border-white/80">
                 <span>🎀</span>
-                <span>Main Character</span>
+                <span>Main Character Hari Ini 👑</span>
               </div>
 
               {heroPhoto && (

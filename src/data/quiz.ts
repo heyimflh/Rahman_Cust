@@ -12,16 +12,16 @@ export interface QuizQuestion {
 export const quizData: QuizQuestion[] = [
   {
     id: "q1",
-    question: "Bagian dari pesta kecil ini yang paling cocok sama Azkia?",
+    question: "Dari semua bagian pesta kecil ini, yang paling \"Azkia banget\" yang mana?",
     options: [
       { text: "Banyak foto-foto lucu", reaction: "Tentu saja, karena fotonya memang harus banyak!" },
       { text: "Kuenya yang manis", reaction: "Semanis orangnya yang lagi ulang tahun." },
-      { text: "Banyak kejutan", reaction: "Kejutan kecil buat yang suka bikin orang tersenyum." }
+      { text: "Banyak kejutan", reaction: "Kejutan-kejutan kecil, khusus buat kamu yang suka bikin orang lain senyum duluan." }
     ]
   },
   {
     id: "q2",
-    question: "Kalau harus pilih satu, mood ulang tahun hari ini kayaknya...",
+    question: "Kalau boleh nebak, mood ulang tahun kamu hari ini kayaknya...",
     options: [
       { text: "Santai tapi happy", reaction: "Setuju, yang penting enjoy aja hari ini." },
       { text: "Banyak senyum", reaction: "Jangan lupa senyumnya difoto juga." },
@@ -30,7 +30,7 @@ export const quizData: QuizQuestion[] = [
   },
   {
     id: "q3",
-    question: "Kue pilihan birthday girl paling cocok dihias dengan...",
+    question: "Kue si birthday girl paling pas dihias pakai...",
     options: [
       { text: "Strawberry yang banyak", reaction: "Fresh dan manis, pilihan bagus!" },
       { text: "Cokelat leleh", reaction: "Classic dan nggak pernah salah." },
@@ -39,7 +39,7 @@ export const quizData: QuizQuestion[] = [
   },
   {
     id: "q4",
-    question: "Di antara semua memori sejauh ini, yang paling kerasa...",
+    question: "Dari semua momen kita sejauh ini, yang paling nempel di ingatan...",
     options: [
       { text: "Pas ketawa bareng", reaction: "Karena ketawamu itu nular." },
       { text: "Pas lagi random", reaction: "Momen random yang nggak bisa diulang." },

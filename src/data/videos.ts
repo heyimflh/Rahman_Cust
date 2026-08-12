@@ -25,8 +25,8 @@ export const videos: VideoMemory[] = [
     webmSrc: "/video/video-2.webm",
     mp4Src: "/video/video-2.mp4",
     poster: "/images/image-11.webp",
-    title: "Azkia, versi yang bergerak dan bikin suasana hidup",
-    caption: "di-save buat diingat kalau kamu selalu punya cara sendiri buat bahagia.",
+    title: "Azkia, versi yang gerak-gerak dan tetep bikin suasana hidup",
+    caption: "disimpen biar diinget, kamu selalu punya cara sendiri buat bahagia.",
     orientation: "portrait",
     aspectRatio: "9/16",
   }

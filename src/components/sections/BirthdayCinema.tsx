@@ -122,7 +122,7 @@ function VideoCard({ video, onOpenTheater }: { video: VideoMemory; onOpenTheater
           <button
             onClick={(e) => { e.stopPropagation(); onOpenTheater(); }}
             className="w-9 h-9 rounded-full bg-black/60 hover:bg-[#FF5E83] text-white flex items-center justify-center backdrop-blur-md transition-all border border-white/20 shadow-md"
-            title="Tonton di Theater Mode"
+            title="Mode Layar Lebar"
           >
             <Maximize2 size={16} />
           </button>
@@ -244,7 +244,7 @@ function TheaterModal({
         <div className="w-full flex items-center justify-between z-20">
           <div className="flex items-center gap-2 bg-white/10 text-white px-4 py-1.5 rounded-full backdrop-blur-md text-sm border border-white/20">
             <Film size={16} className="text-[#FF5E83]" />
-            <span>Birthday Cinema Theater</span>
+            <span>Bioskop Ulang Tahun</span>
           </div>
 
           <button
@@ -351,7 +351,7 @@ export function BirthdayCinema() {
         >
           <div className="inline-flex items-center gap-2 bg-[#FF5E83]/20 border border-[#FF5E83]/50 text-[#FF9EBE] px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest backdrop-blur-md">
             <Film size={14} />
-            <span>Birthday Cinema & Reels</span>
+            <span>Cinema & Reels Ulang Tahun</span>
           </div>
 
           <h2 className="font-display text-4xl md:text-6xl text-[#FFE4EC] tracking-tight">

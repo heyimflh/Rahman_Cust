@@ -21,19 +21,19 @@ export const coupons: Coupon[] = [
   {
     id: "cp-3",
     title: "Teman Jalan Dadakan",
-    description: "1 teman jalan kalau kamu butuh keluar sebentar nyari udara segar.",
+    description: "1 teman jalan siap sedia, kalau kamu butuh kabur sebentar cari udara segar.",
     redeemMessage: "Halo! Kupon teman jalan dadakan diaktifkan! Ayo jalan 🚶‍♀️"
   },
   {
     id: "cp-4",
     title: "Request Playlist",
-    description: "1 request playlist khusus bikinan aku buat nemenin hari kamu.",
+    description: "1 playlist request khusus, aku yang bikinin buat nemenin harimu.",
     redeemMessage: "Halo! Aku mau tuker kupon playlist. Bikinin yang enak ya 🎵"
   },
   {
     id: "cp-5",
     title: "Cetak 1 Foto Favorit",
-    description: "1 foto favoritmu bakal aku cetakin biar bisa disimpen secara fisik.",
+    description: "1 foto favoritmu aku cetakin, biar bisa disimpen fisiknya, bukan cuma di galeri hp.",
     redeemMessage: "Halo! Aku mau tuker kupon cetak foto. Fotonya nyusul ya 📸"
   }
 ];

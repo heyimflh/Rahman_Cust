@@ -46,8 +46,8 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
   {
     id: "vouch-1",
     title: "Unlimited Mood Saver Pass",
-    subtitle: "Sesi Curhat & Comfort Call 24/7",
-    description: "Bebas telepon atau chat kapan saja saat Azkia lagi pusing, overthinking, atau butuh teman cerita. Tanpa batasan durasi & tanpa bikin risih!",
+    subtitle: "Curhat Kapan Aja, Aku Standby",
+    description: "Kalau lagi pusing, overthinking, atau cuma butuh teman cerita — telepon atau chat aja kapan pun. Nggak ada batas waktu, dan nggak akan bikin risih.",
     code: "MOOD-SAVER-AZKIA-247",
     icon: "💖",
     category: "manis",
@@ -61,7 +61,7 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
     id: "vouch-2",
     title: "Midnight Dessert & Snack Party",
     subtitle: "Free Delivery Jajan Favorit Azkia",
-    description: "Kupon untuk pesan-antar makanan, minuman manis, boba, atau dessert favorit Azkia kapanpun lapar melanda. Dibayarin penuh 100%!",
+    description: "Kupon buat pesan-antar makanan, boba, atau dessert favorit, kapan pun laper melanda — dan semuanya aku yang bayarin.",
     code: "SNACK-NIGHT-DELIVERY-19",
     icon: "🍰",
     category: "kuliner",
@@ -75,7 +75,7 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
     id: "vouch-3",
     title: "Movie Marathon & Popcorn Veto",
     subtitle: "Hak Veto Pilih Film & Cemilan",
-    description: "Hak veto mutlak untuk memilih judul film, tayangan series, dan cemilan pendamping saat nonton bareng tanpa boleh diprotes sama sekali!",
+    description: "Kamu yang nentuin film, series, sama cemilannya pas nonton bareng — nggak ada protes-protesan, titik.",
     code: "CINEMA-VETO-AZKIA-FULL",
     icon: "🍿",
     category: "kuliner",
@@ -89,7 +89,7 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
     id: "vouch-4",
     title: "Coffee Date & Deep Talk Treat",
     subtitle: "Nongkrong Santai di Cafe Pilihan Azkia",
-    description: "Kupon janjian ngopi dan deep talk di coffee shop estetik pilihan Azkia. Bebas pesan menu favorit sambil cerita santai tanpa terburu waktu.",
+    description: "Kupon buat janjian ngopi dan deep talk di coffee shop pilihan kamu. Bebas pesan apa aja, ceritanya juga nggak usah buru-buru.",
     code: "COFFEE-DEEP-TALK-DATE",
     icon: "☕",
     category: "manis",
@@ -102,8 +102,8 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
   {
     id: "vouch-5",
     title: "Anti-Debat Champion Card",
-    subtitle: "Bebas Menang 1 Kali Perdebatan",
-    description: "Kartu sakti kebal hukum! Saat digunakan, Azkia otomatis memenangkan perdebatan atau diskusi tanpa syarat dan keputusan tidak dapat diganggu gugat.",
+    subtitle: "Menang Debat, Sekali, Tanpa Ribet",
+    description: "Kartu sakti kebal debat. Sekali dipakai, kamu otomatis menang — nggak pakai proses banding, keputusan final.",
     code: "ANTI-DEBAT-WINNER-CARD",
     icon: "🛡️",
     category: "kebal",
@@ -111,13 +111,13 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
     colorGradient: "from-sky-500 via-blue-500 to-indigo-600",
     accentColor: "#3B82F6",
     badgeBg: "bg-sky-100 text-sky-800 border-sky-300",
-    waMessage: "Halo! Aku mengeluarkan Voucher Sakti: *Anti-Debat Champion Card* (Kode: ANTI-DEBAT-WINNER-CARD) 🛡️ Aku menang perdebatan ini ya!"
+    waMessage: "Halo! Aku mau klaim voucher sakti Anti-Debat Champion Card ya (kode: ANTI-DEBAT-WINNER-CARD) 🛡️ Aku menang debat kali ini!"
   },
   {
     id: "vouch-6",
     title: "The Ultimate Royal Wish Pass",
     subtitle: "1 Permintaan Spesial Bebas Dikabulkan",
-    description: "Voucher paling langka! Azkia berhak mengajukan 1 permintaan khusus apa saja (yang wajar & memungkinkan) dan wajib dikabulkan sepenuhnya!",
+    description: "Voucher paling langka di sini. Ajukan 1 permintaan apa aja (yang masuk akal ya) — dan itu wajib aku kabulin, nggak pakai nego.",
     code: "ROYAL-WISH-ROYALE-AZKIA",
     icon: "👑",
     category: "royale",
@@ -125,7 +125,7 @@ const DIGITAL_VOUCHERS: DigitalVoucher[] = [
     colorGradient: "from-amber-400 via-yellow-300 to-amber-500",
     accentColor: "#D97706",
     badgeBg: "bg-gradient-to-r from-amber-200 to-yellow-300 text-amber-900 border-amber-400 font-black",
-    waMessage: "Halo! Aku resmi mengklaim Voucher LEGENDARY: *The Ultimate Royal Wish Pass* (Kode: ROYAL-WISH-ROYALE-AZKIA) 👑 Ini permintaan spesialku!"
+    waMessage: "Halo! Aku klaim voucher LEGENDARY The Ultimate Royal Wish Pass (kode: ROYAL-WISH-ROYALE-AZKIA) 👑 Ini permintaan spesialku, siap-siap ya!"
   }
 ];
 
@@ -216,7 +216,7 @@ export function Coupons() {
         >
           <div className="inline-flex items-center gap-2 bg-[#C91F5A]/10 border border-[#C91F5A]/25 text-[#C91F5A] px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest shadow-xs">
             <Ticket size={15} className="text-[#C91F5A]" />
-            <span>Digital VIP Pass Vault</span>
+            <span>Koleksi Voucher Sakti Azkia</span>
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-[#C91F5A] tracking-tight drop-shadow-xs">
@@ -366,7 +366,7 @@ export function Coupons() {
 
                         <button
                           onClick={() => handleCopyCode(voucher.code)}
-                          title="Salin Kode Voucher"
+                          title="Salin Kodenya"
                           className="p-2.5 bg-pink-100 hover:bg-pink-200 text-[#C91F5A] rounded-xl text-xs font-bold transition-colors shrink-0"
                         >
                           {copiedCode === voucher.code ? (
@@ -419,7 +419,7 @@ export function Coupons() {
                   {/* Header Title */}
                   <div className="space-y-1 text-center pt-2">
                     <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-extrabold border bg-amber-50 text-amber-800 border-amber-300">
-                      <span>👑 TIKET EKSKLUSIF ULANG TAHUN AZKIA</span>
+                      <span>👑 TIKET SPESIAL ULANG TAHUN AZKIA</span>
                     </div>
                     <h3 className="font-display text-2xl sm:text-3xl text-[#4A3038]">
                       {activeModalVoucher.title}
@@ -466,7 +466,7 @@ export function Coupons() {
                       className="w-full py-4 bg-gradient-to-r from-[#FF5E83] to-[#C91F5A] hover:from-[#C91F5A] hover:to-[#A81748] text-white font-extrabold rounded-2xl shadow-lg text-sm sm:text-base flex items-center justify-center gap-2 transition-all"
                     >
                       <MessageCircle size={18} />
-                      <span>Klaim Voucher Ini Sekarang via WhatsApp 💬</span>
+                      <span>Klaim Voucher Ini di WhatsApp 💬</span>
                     </button>
 
                     <button

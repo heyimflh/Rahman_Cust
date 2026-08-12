@@ -214,7 +214,7 @@ function deterministicOffset(seed: number, min: number, max: number): number {
         >
           <div className="inline-flex items-center gap-2 bg-[#C91F5A]/10 border border-[#C91F5A]/25 text-[#C91F5A] px-4 py-1.5 rounded-full font-bold text-xs uppercase tracking-widest shadow-xs">
             <Gift size={14} className="text-[#C91F5A]" />
-            <span>Surprise Capsule Machine</span>
+            <span>Mesin Kapsul Kejutan</span>
           </div>
 
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl text-[#C91F5A] tracking-tight drop-shadow-xs">
@@ -356,7 +356,7 @@ function deterministicOffset(seed: number, min: number, max: number): number {
                   animate={{ rotate: isTurningHandle ? 360 : 0 }}
                   transition={{ duration: 0.7, repeat: isTurningHandle ? 2 : 0, ease: "linear" }}
                   className="w-14 h-14 bg-gradient-to-tr from-gray-300 via-white to-gray-200 rounded-full border-4 border-amber-400 shadow-xl flex items-center justify-center relative hover:scale-105 active:scale-95 transition-transform cursor-pointer disabled:opacity-50"
-                  title="Putar Tuas Mesin Gacha"
+                  title="Tarik Tuasnya!"
                 >
                   <div className="w-8 h-2 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full shadow-md" />
                   <div className="w-2 h-8 bg-gradient-to-b from-amber-500 to-amber-600 rounded-full shadow-md absolute" />
@@ -534,7 +534,7 @@ function deterministicOffset(seed: number, min: number, max: number): number {
             <div className="text-left space-y-1 text-center sm:text-left">
               <h3 className="font-display text-2xl text-[#C91F5A] flex items-center justify-center sm:justify-start gap-2">
                 <Trophy size={24} className="text-amber-500" />
-                <span>Koleksi Hadiah Kejutan Azkia</span>
+                <span>Koleksi Hadiah Kejutan Kamu</span>
               </h3>
               <p className="text-xs text-[#8B717A]">
                 Semua ucapan manis & kupon yang berhasil Azkia dapatkan tersimpan rapi di sini 💌
