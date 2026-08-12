@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-comfortaa), 'Comic Sans MS', cursive, sans-serif;
+  --font-body: var(--font-outfit), system-ui, -apple-system, sans-serif;
+  --font-handwriting: var(--font-gochi), 'Caveat', cursive;
+
+  --color-primary: #FF6688;
+  --color-secondary: #C91F5A;
+  --color-tertiary: #FFE4EC;
+  --color-quaternary: #FFD8C8;
+  --color-text-dark: #4A3038;
+  --color-text-light: #8B717A;
+  --color-background: #FFF9FB;
+  --color-accent-blue: #DFF2FF;
+  --color-accent-green: #DDF5E8;
+  --color-accent-yellow: #FFF1A8;
+
+  --shadow-soft: 0 4px 20px rgba(255, 102, 136, 0.08);
+  --shadow-medium: 0 8px 30px rgba(201, 31, 90, 0.12);
+  --shadow-large: 0 12px 40px rgba(74, 48, 56, 0.15);
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-wave: wave 2.5s infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes wave {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    75% { transform: rotate(-15deg); }
+  }
+}
+
+@layer utilities {
+  .paper-grain {
+    position: relative;
+  }
+  
+  .paper-grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    z-index: 1;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mask-image-gradient-t {
+    mask-image: linear-gradient(to top, black, transparent);
+    -webkit-mask-image: linear-gradient(to top, black, transparent);
+  }
+}
